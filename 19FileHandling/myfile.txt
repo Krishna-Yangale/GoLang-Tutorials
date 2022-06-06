@@ -1,0 +1,1 @@
+This is course about Golang to learn about more go to its original website and read documentation
