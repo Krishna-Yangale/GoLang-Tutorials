@@ -10,9 +10,9 @@ func main() {
 
 	krishna.NewMail()
 
-	input := Area{100, 200}
+	area := Area{20, 10}
 
-	fmt.Println(input.calculateArea(100, 200))
+	fmt.Println(area.calculateArea())
 
 }
 
@@ -32,7 +32,7 @@ func (u User) NewMail() {
 	fmt.Println(u.Email)
 }
 
-func (a Area) calculateArea(l, b int) int {
+func (a Area) calculateArea() int {
 
 	area := a.Length * a.Breadth
 
